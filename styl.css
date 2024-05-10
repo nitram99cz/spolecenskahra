@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('pozadi.png'); 
+    background-size: cover;
+    font-size: 27px;
+
+}
+
+header {
+    
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    background: linear-gradient(to bottom, #007bff, #00bfff); /* Modrý přechod od tmavě modré po světle modrou */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Bílý text */
+    font-weight: bold; 
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px 15px; 
+    text-decoration: none;
+    color: #000000;
+    background-color: #f4f4f4;
+    outline: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-size: 27px;
+    
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+footer {
+    
+    
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    background: linear-gradient(to top, #007bff, #00bfff); /* Modrý přechod od tmavě modré po světle modrou */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Bílý text */
+    font-weight: bold; 
+    
+
+}
+
+
